@@ -1,0 +1,114 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/luchao/dram/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$(TARGET)	./Makefile	/^$(TARGET): wbtree.c$/;"	t
+ALERT	./lclog.h	/^#define ALERT /;"	d
+Append	./wbtree.c	/^int Append(node *curr, unsigned long key, void *value)$/;"	f	typeref:typename:int
+BITMAP_SIZE	./wbtree.c	/^#define BITMAP_SIZE	/;"	d	file:
+BITOP_WORD	./wbtree.c	/^#define BITOP_WORD(/;"	d	file:
+BITS_PER_LONG	./wbtree.c	/^#define BITS_PER_LONG	/;"	d	file:
+BLACK	./lclog.h	/^#define BLACK /;"	d
+BLINK	./lclog.h	/^#define BLINK /;"	d
+BLUE	./lclog.h	/^#define BLUE /;"	d
+BLUE	./lclog.h	/^#define BLUE$/;"	d
+BOLD	./lclog.h	/^#define BOLD /;"	d
+BROWN	./lclog.h	/^#define BROWN /;"	d
+BROWN	./lclog.h	/^#define BROWN$/;"	d
+CC	./Makefile	/^CC=gcc$/;"	m
+CFLAGS	./Makefile	/^CFLAGS=$(shell pkg-config --cflags libpmem)$/;"	m
+CLEAR	./lclog.h	/^#define CLEAR /;"	d
+CLRLINE	./lclog.h	/^#define CLRLINE /;"	d
+CRIT	./lclog.h	/^#define CRIT /;"	d
+CYAN	./lclog.h	/^#define CYAN /;"	d
+CYAN	./lclog.h	/^#define CYAN$/;"	d
+DEBUG	./Makefile	/^DEBUG=-g$/;"	m
+DEBUG	./lclog.h	/^#define DEBUG /;"	d
+Delete	./wbtree.c	/^int Delete(tree *t, unsigned long key)$/;"	f	typeref:typename:int
+EMERG	./lclog.h	/^#define EMERG /;"	d
+ERR	./lclog.h	/^#define ERR /;"	d
+GRAY	./lclog.h	/^#define GRAY /;"	d
+GRAY	./lclog.h	/^#define GRAY$/;"	d
+GREEN	./lclog.h	/^#define GREEN /;"	d
+GREEN	./lclog.h	/^#define GREEN$/;"	d
+HIDE	./lclog.h	/^#define HIDE /;"	d
+INFO	./lclog.h	/^#define INFO /;"	d
+Insert	./wbtree.c	/^void Insert(tree *t, unsigned long key, void *value)$/;"	f	typeref:typename:void
+LIBS	./Makefile	/^LIBS=$(shell pkg-config --libs libpmem libpmemobj)$/;"	m
+LOG_COLOR	./lclog.h	/^#define LOG_COLOR /;"	d
+LOG_LEVEL	./lclog.h	/^#define LOG_LEVEL /;"	d
+LWLOG_H_	./lclog.h	/^#define LWLOG_H_ /;"	d
+L_BLACK	./lclog.h	/^#define L_BLACK /;"	d
+L_BLUE	./lclog.h	/^#define L_BLUE /;"	d
+L_CYAN	./lclog.h	/^#define L_CYAN /;"	d
+L_GREEN	./lclog.h	/^#define L_GREEN /;"	d
+L_PURPLE	./lclog.h	/^#define L_PURPLE /;"	d
+L_RED	./lclog.h	/^#define L_RED /;"	d
+MIN_LIVE_ENTRIES	./wbtree.c	/^#define MIN_LIVE_ENTRIES /;"	d	file:
+NODE_SIZE	./wbtree.c	/^#define NODE_SIZE	/;"	d	file:
+NONE	./lclog.h	/^#define NONE /;"	d
+NONE	./lclog.h	/^#define NONE$/;"	d
+NOTICE	./lclog.h	/^#define NOTICE /;"	d
+OP_NUM	./wbtree.c	/^#define OP_NUM /;"	d	file:
+PURPLE	./lclog.h	/^#define PURPLE /;"	d
+PURPLE	./lclog.h	/^#define PURPLE$/;"	d
+RED	./lclog.h	/^#define RED /;"	d
+RED	./lclog.h	/^#define RED$/;"	d
+REVERSE	./lclog.h	/^#define REVERSE /;"	d
+SLOT_SIZE	./wbtree.c	/^#define SLOT_SIZE	/;"	d	file:
+Search	./wbtree.c	/^int Search(node *curr, char *slot, unsigned long key)$/;"	f	typeref:typename:int
+TARGET	./Makefile	/^TARGET=a.out$/;"	m
+TRUERAM	./Makefile	/^TRUERAM=DRAM$/;"	m
+UNDERLINE	./lclog.h	/^#define UNDERLINE /;"	d
+WARNING	./lclog.h	/^#define WARNING /;"	d
+WHITE	./lclog.h	/^#define WHITE /;"	d
+YELLOW	./lclog.h	/^#define YELLOW /;"	d
+YELLOW	./lclog.h	/^#define YELLOW$/;"	d
+__FILENAME__	./lclog.h	/^#define __FILENAME__ /;"	d
+allocNode	./wbtree.c	/^node *allocNode()$/;"	f	typeref:typename:node *
+bitmap	./wbtree.c	/^	unsigned long bitmap; $/;"	m	struct:node	typeref:typename:unsigned long	file:
+clean	./Makefile	/^clean:$/;"	t
+clean_errno	./lclog.h	/^#define clean_errno(/;"	d
+delete_in_leaf	./wbtree.c	/^int delete_in_leaf(node *curr, unsigned long key)$/;"	f	typeref:typename:int
+dummy	./wbtree.c	/^	char dummy[48];$/;"	m	struct:node	typeref:typename:char[48]	file:
+entries	./wbtree.c	/^	struct entry entries[NODE_SIZE];$/;"	m	struct:node	typeref:struct:entry[]	file:
+entry	./wbtree.c	/^struct entry {$/;"	s	file:
+entry	./wbtree.c	/^typedef struct entry entry;$/;"	t	typeref:struct:entry	file:
+ffz	./wbtree.c	/^static inline unsigned long ffz(unsigned long word)$/;"	f	typeref:typename:unsigned long	file:
+find_leaf_node	./wbtree.c	/^node *find_leaf_node(struct node *curr, unsigned long key)$/;"	f	typeref:typename:node *
+find_next_zero_bit	./wbtree.c	/^unsigned long find_next_zero_bit(unsigned long *addr, unsigned long size, unsigned long offset)$/;"	f	typeref:typename:unsigned long
+gethead	./wbtree.c	/^node *gethead(node *curr) {$/;"	f	typeref:typename:node *
+initTree	./wbtree.c	/^tree *initTree()$/;"	f	typeref:typename:tree *
+insert_in_inner	./wbtree.c	/^int insert_in_inner(node *curr, unsigned long key, void *value)$/;"	f	typeref:typename:int
+insert_in_leaf	./wbtree.c	/^int insert_in_leaf(node *curr, unsigned long key, void *value)$/;"	f	typeref:typename:int
+insert_in_parent	./wbtree.c	/^void insert_in_parent(tree *t, node *curr, unsigned long key, node *splitNode)$/;"	f	typeref:typename:void
+isleaf	./wbtree.c	/^	int isleaf;$/;"	m	struct:node	typeref:typename:int	file:
+key	./wbtree.c	/^	unsigned long key;$/;"	m	struct:entry	typeref:typename:unsigned long	file:
+keys	./wbtree.c	/^uint64_t keys[OP_NUM];$/;"	v	typeref:typename:uint64_t[]
+lclog_alert	./lclog.h	/^#define lclog_alert(/;"	d
+lclog_crit	./lclog.h	/^#define lclog_crit(/;"	d
+lclog_debug	./lclog.h	/^#define lclog_debug(/;"	d
+lclog_emerg	./lclog.h	/^#define lclog_emerg(/;"	d
+lclog_err	./lclog.h	/^#define lclog_err(/;"	d
+lclog_info	./lclog.h	/^#define lclog_info(/;"	d
+lclog_notice	./lclog.h	/^#define lclog_notice(/;"	d
+lclog_warning	./lclog.h	/^#define lclog_warning(/;"	d
+leftmostPtr	./wbtree.c	/^	struct node *leftmostPtr;$/;"	m	struct:node	typeref:struct:node *	file:
+main	./wbtree.c	/^int main()$/;"	f	typeref:typename:int
+node	./wbtree.c	/^struct node {$/;"	s	file:
+node	./wbtree.c	/^typedef struct node node;$/;"	t	typeref:struct:node	file:
+parent	./wbtree.c	/^	struct node *parent;$/;"	m	struct:node	typeref:struct:node *	file:
+ptr	./wbtree.c	/^	void *ptr;$/;"	m	struct:entry	typeref:typename:void *	file:
+root	./wbtree.c	/^	struct node *root;$/;"	m	struct:tree	typeref:struct:node *	file:
+scan	./wbtree.c	/^void scan(node *curr)$/;"	f	typeref:typename:void
+slot	./wbtree.c	/^	char slot[SLOT_SIZE];$/;"	m	struct:node	typeref:typename:char[]	file:
+tree	./wbtree.c	/^struct tree {$/;"	s	file:
+tree	./wbtree.c	/^typedef struct tree tree;$/;"	t	typeref:struct:tree	file:
+wrong_delete_in_leaf	./wbtree.c	/^int wrong_delete_in_leaf(node *curr, unsigned long key)$/;"	f	typeref:typename:int
